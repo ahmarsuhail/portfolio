@@ -1,0 +1,41 @@
+.intro-box {
+    color: #3f51b5;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3f51b5;
+    margin-top: 50px;
+}
+
+.intro-content {
+    padding: 10px;
+}
+
+.buttons {
+    margin-top: 100px;
+}
+
+.button {
+    color: #3f51b5;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3f51b5;
+    padding: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .buttons {
+        margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .buttons {
+        margin-top: 50px;
+    }
+  }
