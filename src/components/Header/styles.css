@@ -1,0 +1,34 @@
+.header{
+    color: #3f51b5;
+    font-family: 'Inconsolata';
+    border-bottom: 5px solid #3f51b5;
+}
+
+.website-heading {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+.author-heading {
+    font-size: 20px;
+    padding-right: 5px;
+    margin-top: -15px;
+}
+html, body {
+    max-width: 100%;
+}
+
+ @media screen and (max-width: 360px) {
+    .website-heading {
+          margin-left: 0;
+          font-size: 25px;
+    }
+    .author-heading {
+        font-size: 15px;
+        margin-top: 0;
+    }
+}    

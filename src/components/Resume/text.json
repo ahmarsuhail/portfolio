@@ -1,0 +1,51 @@
+{
+    "languages": "Languages: Javascript, Java, C++, Python",
+    "webBackend": "Web backend: Node.js, Java Spring MVC, GraphQL, SQL, MongoDB, CosmosDB",
+    "webFrontend": "Web frontend: React, Angular, CSS3, HTML5",
+    "cloud": "Cloud: Azure, AWS",
+    "devOps": "DevOps: Docker, Kubernetes", 
+    "work": "Work",
+    "kubedex": "Kubedex",
+    "iot": "Cargo & Fleet Management",
+    "britishAirways": "British Airways",
+    "projects" : {
+        "kubedex": ": A framework to prioritize network traffic at the edge for IoT systems.",
+        "iot": ": Real time updating dashboards for cargo monitoring and fleet management.",
+        "britishAirways": ": Design and development of phase two of the British Airways website."
+    },
+    "links": "Links",
+    "linkHeadings": {
+        "linkedIn": "LinkedIn",
+        "github": "Github",
+        "angelList": "AngelList"
+    },
+    "linkedIn": "https://www.linkedin.com/in/ahmar-suhail/",
+    "github": "https://github.com/ahmarsuhail",
+    "angelList": "https://angel.co/ahmar-suhail",
+    "email": "ahmar.suhail@gmail.com",
+    "dash": " --> ",
+    "projectDescriptions" : {
+        "kubedex": {"heading": "Kubedex",
+                    "description": ["- Designed and developed a framework to prioritize application critical traffic for IoT systems.",
+                                    "- Framework analyzes traffic load by looking at number of subscribers, publishers and data rate.",
+                                    "- Calculates % of total bandwidth and drop rates for each message topic.",
+                                    "- Implemented network policies using Linux's Traffic Control on virtual interfaces of docker containers.",
+                                    "- Managed deployment using Kubernetes."]},
+        "iot": {"heading": "Cargo & Fleet Management",
+            "description": ["- ​Lead application development for two IoT solutions: Vehicle Fleet Management and Cargo Monitoring.",
+                            "- Developed backend API's using Node.js, CosmosDB.",
+                            "- Developed fully responsive, real time updating dashboards using React, Socket.io.",
+                            "- D​eveloped data ingestion platform using Azure's IoT Hub.",
+                            "- O​ptimized architecture on various points, focussing particularly on data optimization and data management cycles."]},
+        "britishAirways": {"heading": "British Airways",
+                            "description": ["- W​orked on the design and development of phase two of the British Airways Beta website.",
+                            "- Developed fully responsive UI views and made enhancements to AngularJS application.",
+                            "- Wrote new and enhanced existing micro services using the Spring MVC.",
+                            "- Developed an application to generate boilerplate code for adapter micro services thereby reducing total required development time."]}
+    },
+    "educationHeading": "Education",
+    "education" : {"masters": "University of California, Irvine​ — M​asters, Computer Science",
+                    "mastersDate": "September 2018 - June 2019",
+                    "bachelors": "NIT, Allahabad​ — B​-Tech, Computer Science",
+                    "bachelorsDate": "July 2012 - May 2016"}
+}

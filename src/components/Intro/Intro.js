@@ -13,51 +13,88 @@ function Intro() {
     }
 
     return (
-        <div>
+        <div class="intro">
             <div class="intro-box">
                 <div class="intro-content">
-                    <Typography variant="h4" gutterBottom>
                         About Me
-            </Typography>
-
-                    <Typography variant="h6" gutterBottom>
+                        
                         <p>{text.introBegin}</p>
-                        <p>{text.introEnd}</p>
-                    </Typography>
+                        <p>{text.introTwo}</p>
+                        <p>{text.introThree}</p>
                 </div>
             </div>
 
-            <div class="buttons">
+            <div class="buttons buttons-medium">
             <Grid container direction="row" justify="space-between" alignItems="center">
 
-                <Grid item xm={1}></Grid>
+                <Grid item xs={1}></Grid>
                 
-                <Grid item xs={3} xm={2}>
+                <Grid item xs={2}>
                     
                     <Link to="/resume" style={linkStyle}>
                     <div class="button"> 
-                         Hello 
+                         Resume 
                          </div> 
                     </Link>
                    
                 </Grid>
            
 
-                <Grid item xs={3} xm={2}>
+                <Grid item xs={2}>
+                <Link to="/contact" style={linkStyle}>
                     <div class="button">
-                        Hello
+                        Contact
                     </div>
+                </Link>   
                 </Grid>
 
 
-                <Grid item xs={3} xm={2}>
+                <Grid item xs={2}>
                     <div class="button">
-                        Hello
+                        Articles
                     </div>
                 </Grid>
 
-                <Grid item xm={1}></Grid>
+                <Grid item xs={1}></Grid>
             </Grid>
+            </div>
+
+            <div class="buttons-small buttons">
+     
+            <Grid container direction="row" justify="space-between" alignItems="center">            
+                <Grid item xs={3}></Grid>
+                <Grid item xs={6}>    
+                    <Link to="/resume" style={linkStyle}>
+                    <div class="button"> 
+                         Resume 
+                         </div> 
+                    </Link>
+                </Grid>
+                <Grid item xs={3}></Grid>
+            </Grid>
+
+            <Grid container direction="row" justify="space-between" alignItems="center">
+                <Grid item xs={3}></Grid>
+                <Grid item xs={6}>
+                <Link to="/contact" style={linkStyle}>
+                    <div class="button">
+                        Contact
+                    </div>
+                </Link>   
+                </Grid>
+                <Grid item xs={3}></Grid>
+            </Grid>
+
+            <Grid container direction="row" justify="space-between" alignItems="center">
+                <Grid item xs={3}></Grid>
+                <Grid item xs={6}>
+                    <div class="button">
+                        Articles
+                    </div>
+                </Grid>
+                <Grid item xs={3}></Grid>
+            </Grid>
+            
             </div>
 
         </div>

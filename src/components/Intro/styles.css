@@ -1,3 +1,8 @@
+.intro{
+    color: #3f51b5;
+    font-family: 'Inconsolata';
+}
+
 .intro-box {
     color: #3f51b5;
     border-style: solid;
@@ -28,14 +33,37 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 400px) {
-    .buttons {
-        margin-top: 20px;
-    }
-  }
+.buttons-medium {
+    display: block;
+}
+
+.buttons-small {
+    display: none;
+}
+
 
   @media screen and (max-width: 800px) {
     .buttons {
         margin-top: 50px;
     }
   }
+
+  @media screen and (max-width: 415px) {
+    .buttons-medium {
+        display: none;
+    }
+    .buttons-small {
+        display: block;
+    }
+
+    .buttons {
+        margin-top: 15px;
+    }
+
+    .button {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+

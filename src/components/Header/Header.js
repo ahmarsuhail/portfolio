@@ -1,21 +1,22 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import styles from './styles.css'
 
 
 function Header() {
 
     return (
             <Grid item xs={12}>
-                <AppBar position="static">
-                    <Toolbar>
-                        <Typography variant="h6">
-                            My Website
-                    </Typography>
-                    </Toolbar>
-                </AppBar>
+                    <div class="header">
+                    <Grid container direction="row" justify="flex-start" alignItems="center" className="header-content">
+                        <Grid item xs={8}>
+                        <div class="website-heading">//Hello, World!</div>
+                        </Grid>
+                        <Grid item xs={4}>
+                        <div class="author-heading"><div class="author-name">@author: Ahmar Suhail</div></div>
+                        </Grid>
+                    </Grid> 
+                 </div>
             </Grid>
     )
 }

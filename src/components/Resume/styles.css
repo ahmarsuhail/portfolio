@@ -1,0 +1,62 @@
+.heading-margin {
+    margin-top: 25px;
+}
+
+.resume{
+    color: #3f51b5;
+    font-family: 'Inconsolata';
+}
+
+.project-heading {
+    cursor: pointer;
+}
+
+.project-details-box {
+    color: #3f51b5;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3f51b5;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.resume-link {
+    color: #3f51b5;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3f51b5;
+    padding: 10px;
+}
+
+.resume-link:hover {
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.education-heading {
+    margin-bottom: 5px;
+}
+
+.education-date {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.education {
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 360px) {
+    .resume-link {
+        border: none;
+    }
+}
+
+.author-name{
+    float: right;
+}
