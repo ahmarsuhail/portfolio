@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import profileImage from './profileImage.jpg';
 import Grid from '@material-ui/core/Grid';
 import text from './text.json';
+import R from './Resume.pdf';
 
 class Resume extends Component {
 
@@ -48,11 +49,11 @@ class Resume extends Component {
                     </Grid>
                     <Grid container direction="row" justify="flex-start" alignItems="flex-start">
                         <Grid item xs={3}>
-                            <Avatar alt="Remy Sharp" src={profileImage} className="avatar" />
+                            <Avatar src={profileImage} className="avatar" />
                         </Grid>
                         <Grid item xs={4}></Grid>
                         <Grid item xs={4}>
-                            <a href="https://ahmar-portfolio-server.herokuapp.com/resume" target="_blank">
+                            <a href={R} target="_blank">
                                 <div class="resume-link">
                                     Resume.pdf
                                 </div>
