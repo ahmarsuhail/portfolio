@@ -86,7 +86,7 @@ class Contact extends Component {
                             <Grid container direction="row" justify="flex-start" alignItems="flex-start">
                                 <Grid item xs={1}></Grid>
                                 <Grid item xs={4}>
-                                    <div><input class="button" type="submit" value="Send" /></div>
+                                    <div><input class="button-contact" type="submit" value="Send" /></div>
                                 </Grid>
                             </Grid>
                         </div>
@@ -115,7 +115,7 @@ class Contact extends Component {
 
                             <Grid container direction="row" justify="flex-start" alignItems="flex-start">
                                 <Grid item xs={5}>
-                                    <div><input class="button" type="submit" value="Send" /></div>
+                                    <div><input class="button-contact" type="submit" value="Send" /></div>
                                 </Grid>
                             </Grid>
 
