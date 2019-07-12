@@ -17,12 +17,14 @@
     font-size: 20px;
     padding-right: 5px;
     margin-top: -15px;
+    margin-right: 5%;
 }
 html, body {
-    max-width: 100%;
+    margin: 0;
+    width: 100%;
 }
 
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 375px) {
     .website-heading {
           margin-left: 0;
           font-size: 25px;

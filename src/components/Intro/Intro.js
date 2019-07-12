@@ -13,7 +13,13 @@ function Intro() {
     }
 
     return (
+        
         <div class="intro">
+            
+            <Grid container direction="row" justify="space-between" alignItems="center">
+                <Grid item xs={12}><div class="landing-page"><h2>{text.landingPage}</h2></div></Grid>
+             </Grid>
+
             <div class="intro-box">
                 <div class="intro-content">
                         About Me
@@ -50,9 +56,11 @@ function Intro() {
 
 
                 <Grid item xs={2}>
+                <Link to="/articles" style={linkStyle}>
                     <div class="button">
                         Articles
                     </div>
+                </Link>
                 </Grid>
 
                 <Grid item xs={1}></Grid>
@@ -88,9 +96,11 @@ function Intro() {
             <Grid container direction="row" justify="space-between" alignItems="center">
                 <Grid item xs={3}></Grid>
                 <Grid item xs={6}>
+                <Link to="/articles" style={linkStyle}>
                     <div class="button">
                         Articles
                     </div>
+                </Link>
                 </Grid>
                 <Grid item xs={3}></Grid>
             </Grid>

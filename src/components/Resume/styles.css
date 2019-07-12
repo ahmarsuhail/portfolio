@@ -26,6 +26,7 @@
     border-width: 5px;
     border-color: #3f51b5;
     padding: 10px;
+    margin-top: 15%;
 }
 
 .resume-link:hover {
@@ -50,13 +51,46 @@ a{
     margin-bottom: 40px;
 }
 
+.author-name{
+    float: right;
+}
+
+.avatar {
+    height: 150px !important;
+    width: 150px !important;
+    margin-bottom: 40px;
+}
+
+.resume-heading {
+    text-align: center;
+}
 
 @media screen and (max-width: 360px) {
     .resume-link {
         border: none;
+        margin-top: 0;
+    }
+    
+    .avatar {
+        height: 40px !important;
+        width: 40px !important;
+        margin-bottom: 20px;
+    }
+
+    .resume-heading {
+        margin-top: 0;
     }
 }
 
-.author-name{
-    float: right;
+@media screen and (max-width: 414px) {
+    .avatar {
+        height: 60px !important;
+        width: 60px !important;
+        margin-bottom: 20px;
+    }
+
+    .resume-link {
+        margin-top: 0;
+    }
 }
+

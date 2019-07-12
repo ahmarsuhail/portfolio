@@ -47,5 +47,6 @@
     "education" : {"masters": "University of California, Irvine​ — M​asters, Computer Science",
                     "mastersDate": "September 2018 - June 2019",
                     "bachelors": "NIT, Allahabad​ — B​-Tech, Computer Science",
-                    "bachelorsDate": "July 2012 - May 2016"}
+                    "bachelorsDate": "July 2012 - May 2016"},
+    "resume": "<!-- Resume.html -->"               
 }

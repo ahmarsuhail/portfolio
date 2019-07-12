@@ -1,0 +1,8 @@
+{
+   "name": "Name:",
+   "email": "Email:",
+   "contact": "<!-- Contact.html -->" ,
+   "messageSent": "<!-- Message Sent -->",
+   "wentWrong1": "err: Something went wrong :(",
+   "wentWrong2": "Send an email to ahmar.suhail@gmail.com instead?"
+}
