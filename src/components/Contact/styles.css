@@ -17,6 +17,7 @@
     font-family: 'Inconsolata';
     width: 50%;
     color: #3f51b5;
+    cursor: pointer;
 }
 
 .custom-input {
