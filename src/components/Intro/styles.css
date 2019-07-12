@@ -69,5 +69,9 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    .landing-heading {
+        font-size: 1.2em;
+    }
   }
 

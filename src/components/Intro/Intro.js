@@ -17,7 +17,7 @@ function Intro() {
         <div class="intro">
             
             <Grid container direction="row" justify="space-between" alignItems="center">
-                <Grid item xs={12}><div class="landing-page"><h2>{text.landingPage}</h2></div></Grid>
+                <Grid item xs={12}><div class="landing-page"><h2 class="landing-heading">{text.landingPage}</h2></div></Grid>
              </Grid>
 
             <div class="intro-box">
