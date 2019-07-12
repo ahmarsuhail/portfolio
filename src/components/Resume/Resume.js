@@ -52,7 +52,7 @@ class Resume extends Component {
                         </Grid>
                         <Grid item xs={4}></Grid>
                         <Grid item xs={4}>
-                            <a href="http://localhost:4000/resume" target="_blank">
+                            <a href="https://ahmar-portfolio-server.herokuapp.com/resume" target="_blank">
                                 <div class="resume-link">
                                     Resume.pdf
                                 </div>

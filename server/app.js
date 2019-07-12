@@ -23,6 +23,8 @@ app.use(function(req, res, next) {
 
 app.use('/', indexRouter);
 
-app.listen("4000");
+app.listen(process.env.PORT || "4000");
+
+console.log(process.env.PORT);
 
 module.exports = app;

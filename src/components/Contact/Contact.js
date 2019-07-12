@@ -26,7 +26,7 @@ class Contact extends Component {
     async handleSubmit(event) {
         event.preventDefault();
         try {
-            await fetch('http://localhost:4000/contact/', {
+            await fetch('https://ahmar-portfolio-server.herokuapp.com/contact', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
