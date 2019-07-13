@@ -25,6 +25,9 @@ app.use('/', indexRouter);
 
 app.listen(process.env.PORT || "4000");
 
-console.log(process.env.PORT);
+//Stop app from sleeping on Heroku
+setInterval(() => {
+console.log("Hello");
+}, 600000);
 
 module.exports = app;
