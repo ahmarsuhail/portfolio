@@ -1,3 +1,6 @@
 {
-    "progress": "//Page under construction"
+"articleHeading": "<!-- Articles.html -->",    
+"articles": [
+   {"linkName": "This in JavaScript", "linkURL": "https://medium.com/@ahmarsuhail/this-undefined-c11aa3b9170b"}
+]   
 }
